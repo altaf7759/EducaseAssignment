@@ -1,0 +1,97 @@
+.account-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.account-content {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.account-title h1 {
+  text-align: left;
+}
+
+.account-details {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.section-top {
+  display: flex;
+  align-items: center;
+}
+
+.account-img {
+  position: relative;
+}
+
+.profile {
+  width: 150px;
+}
+
+.cam {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  width: 30px;
+}
+
+.account-name-email {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.account-name-email h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section-bottom {
+  margin-top: 20px;
+}
+
+.section-bottom p {
+  color: gray;
+}
+
+@media (max-width: 470px) {
+  .account-content {
+    margin-top: 0;
+  }
+
+  .account-title h1 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 25px 30px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .account-details {
+    padding: 30px;
+    margin-top: 10px;
+  }
+
+  .profile {
+    width: 100px;
+  }
+
+  .cam {
+    width: 20px;
+  }
+
+  .account-name-email {
+    padding-left: 25px;
+  }
+
+  .account-name-email h4 {
+    font-weight: 400;
+  }
+
+  .account-name-email p {
+    font-size: 13px;
+  }
+}
